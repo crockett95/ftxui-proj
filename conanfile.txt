@@ -1,0 +1,11 @@
+[requires]
+ftxui/5.0.0
+
+[options]
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[layout]
+cmake_layout
