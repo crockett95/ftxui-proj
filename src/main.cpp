@@ -10,6 +10,9 @@
 
 #include <boost/application.hpp>
 
+namespace {
+const int SIDEBAR_SIZE = 20;
+
 // Take a list of component, display them vertically, one column shifted to the
 // right.
 ftxui::Component Inner(std::vector<ftxui::Component> children) {
@@ -25,6 +28,7 @@ ftxui::Component Inner(std::vector<ftxui::Component> children) {
 ftxui::Component Empty() {
   return std::make_shared<ftxui::ComponentBase>();
 }
+} // namespace
 
 int main() {
   auto component = ftxui::Collapsible(
@@ -53,7 +57,7 @@ int main() {
               })),
       }));
 
-  int left_size = 20;
+  int left_size = SIDEBAR_SIZE;
 
   auto middle =
       ftxui::Renderer([] { return ftxui::text("middle") | ftxui::center; });
