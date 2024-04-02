@@ -1,9 +1,0 @@
-{
-    "version": "0.5",
-    "requires": [
-        "ftxui/5.0.0#99cc82efeb91a0d9d60edc45c1085471%1692497361.158"
-    ],
-    "build_requires": [],
-    "python_requires": [],
-    "config_requires": []
-}

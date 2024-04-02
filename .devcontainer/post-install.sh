@@ -2,7 +2,7 @@
 
 # Conan
 conan config install -t dir .conan
-conan install .
+conan install . --build=missing
 
 # Pre-commit
 pre-commit install

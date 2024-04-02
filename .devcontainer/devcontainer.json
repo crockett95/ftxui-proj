@@ -19,11 +19,15 @@
 		"ghcr.io/devcontainers-contrib/features/pipx-package:1": {
 			"package": "conan"
 		},
+		"ghcr.io/devcontainers-contrib/features/pipx-package:1.1": {
+			"package": "gcovr"
+		},
 		"ghcr.io/devcontainers-contrib/features/pre-commit:2": {
 			"version": "latest"
 		},
 		"ghcr.io/devcontainers-contrib/features/tmux-apt-get:1": {},
-		"ghcr.io/devcontainers-contrib/features/wget-apt-get:1": {}
+		"ghcr.io/devcontainers-contrib/features/wget-apt-get:1": {},
+		"ghcr.io/guiyomh/features/just:0": {}
 	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
@@ -58,7 +62,9 @@
 				"donjayamanne.python-extension-pack",
 				"xaver.clang-format",
 				"MS-vsliveshare.vsliveshare",
-				"cschlosser.doxdocgen"
+				"cschlosser.doxdocgen",
+				"skellock.just",
+				"ryanluker.vscode-coverage-gutters"
 			]
 		}
 	},

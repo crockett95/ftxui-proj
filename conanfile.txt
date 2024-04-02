@@ -1,5 +1,6 @@
 [requires]
 ftxui/5.0.0
+boost/1.78.0
 
 [options]
 

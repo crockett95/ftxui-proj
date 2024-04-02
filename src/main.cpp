@@ -8,6 +8,8 @@
 #include "ftxui/component/screen_interactive.hpp" // for Component, ScreenInteractive
 #include "ftxui/dom/elements.hpp"                 // for text, hbox, Element
 
+#include <boost/application.hpp>
+
 // Take a list of component, display them vertically, one column shifted to the
 // right.
 ftxui::Component Inner(std::vector<ftxui::Component> children) {
